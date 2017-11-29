@@ -10,7 +10,7 @@ class Config(object):
 
 class Production(Config):
     DEBUG = False
-    DATABASE_URI = 'performance/performance@perfp'
+    DATABASE_URI = 'user/pass@perfp'
 
 class Development(Config):
     DEBUG = True
